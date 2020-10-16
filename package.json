@@ -1,6 +1,6 @@
 {
     "name": "imagemin-linter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "imagemin for lint-staged",
     "bin": {
         "imagemin-linter": "bin/index.js"
