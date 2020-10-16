@@ -42,6 +42,11 @@
         "babel-jest": "^26.5.2",
         "jest": "^26.5.3"
     },
+    "homepage": "https://github.com/GDUFXRT/imagemin-linter",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GDUFXRT/imagemin-linter.git"
+    },
     "keywords": [
         "imagemin",
         "compress images",
