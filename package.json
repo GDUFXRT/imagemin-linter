@@ -1,0 +1,53 @@
+{
+    "name": "imagemin-linter",
+    "version": "1.0.0",
+    "description": "imagemin for lint-staged",
+    "bin": {
+        "imagemin-linter": "bin/index.js"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "babel": {
+        "env": {
+            "test": {
+                "presets": [
+                    "@babel/preset-env"
+                ]
+            }
+        },
+        "plugins": [
+            [
+                "@babel/transform-runtime",
+                {
+                    "regenerator": true
+                }
+            ]
+        ]
+    },
+    "dependencies": {
+        "commander": "^6.1.0",
+        "imagemin-gifsicle": "^7.0.0",
+        "imagemin-jpegtran": "^7.0.0",
+        "imagemin-mozjpeg": "^9.0.0",
+        "imagemin-optipng": "^8.0.0",
+        "imagemin-pngquant": "^9.0.1",
+        "imagemin-svgo": "^8.0.0",
+        "util.promisify": "^1.0.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@babel/plugin-transform-runtime": "^7.11.5",
+        "@babel/preset-env": "^7.11.5",
+        "babel-jest": "^26.5.2",
+        "jest": "^26.5.3"
+    },
+    "keywords": [
+        "imagemin",
+        "compress images",
+        "lint-staged",
+        "pre-commit"
+    ],
+    "author": "xuruitao",
+    "license": "ISC"
+}
